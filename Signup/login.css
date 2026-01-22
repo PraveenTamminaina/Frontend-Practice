@@ -1,0 +1,118 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+#page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  margin: 5vh;
+}
+
+main {
+  width: 24vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer {
+  width: 100%;
+  padding: 3vh;
+  background-color: rgb(255, 249, 249);
+
+  display: flex; 
+  justify-content: center;
+}
+
+img {
+  width: 26px;
+}
+
+#signup-btn {
+  display: flex;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#signup-text {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+div h2 {
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+label {
+  font-weight: 800;
+  margin-bottom: -10px;
+}
+
+input {
+  min-height: 40px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+button {
+  min-height: 40px;
+  border-radius: 12px;
+  border: none;
+  background-color: rgb(174, 173, 173);
+  color: white;
+  cursor: pointer;
+}
+
+#registered {
+  text-align: center;
+}
+
+#registered a {
+  color: black;
+  text-decoration: underline dotted;
+}
+
+footer a {
+  color: black;
+  text-decoration: underline dotted;
+}
+
+a {
+  opacity: 0.5;
+}
+
+#password {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#password img {
+  height: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#password input {
+  border: none;
+}
